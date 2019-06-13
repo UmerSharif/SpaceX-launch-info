@@ -1,0 +1,19 @@
+{
+  "name": "spacex-launch-info",
+  "version": "1.0.0",
+  "description": "Spacex rocket launch info",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "Umer",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.8.0",
+    "graphql": "^14.3.1",
+    "nodemon": "^1.19.1"
+  }
+}
